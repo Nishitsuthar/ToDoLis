@@ -17,6 +17,16 @@ You will also see any lint errors in the console.
 
 ### Making a Progressive Web App
 
-![alt text](https://github.com/nishitsuthar/ToDoList/blob/mymain/image.jpg?raw=true)
+this is the output of my ToDoList wich create in ReactJs
+
+(https://github.com/Nishitsuthar/ToDoLis/blob/mymain/demo1.png)
+
+if you want to add anything just add & press the plus button
+
+(https://github.com/Nishitsuthar/ToDoLis/blob/mymain/demo2.png)
+
+after adding the item you can delete it simply pressing the mini cross icons below
+
+(https://github.com/Nishitsuthar/ToDoLis/blob/mymain/demo3.png)
 
 
