@@ -17,7 +17,7 @@ You will also see any lint errors in the console.
 
 ### Making a Progressive Web App
 
-this is the output of my ToDoList wich create in ReactJs
+this is the output of my ToDoList which i created in ReactJs
 
 ![Image of Todolist](https://github.com/Nishitsuthar/ToDoLis/blob/mymain/demo1.png)
 
