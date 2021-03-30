@@ -2,12 +2,15 @@ import React, { useState } from "react";
 
 const App = () => {
   const [list, setList] = useState("");
-  const [upList, setUpList] = useState("");
+  const [arr, setArr] = useState([]);
 
   const inputData = (event) => {
-    const value = event.target.value;
-    console.log(value);
-    setList(value);
+    setList(event.target.value);
+  };
+  const outputData = () => {
+    setArr((oldVal) => {
+      return [...oldVal, list];
+    });
   };
   return (
     <>
@@ -22,10 +25,12 @@ const App = () => {
             onChange={inputData}
             value={list}
           />
-          <button>+</button>
+          <button onClick={outputData}>+</button>
 
           <ol>
-            <li>{list}</li>
+            {arr.map((itemList) => {
+              return <li>{itemList}</li>;
+            })}
           </ol>
         </div>
       </div>
