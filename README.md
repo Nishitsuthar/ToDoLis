@@ -19,14 +19,14 @@ You will also see any lint errors in the console.
 
 this is the output of my ToDoList which i created in ReactJs
 
-![Image of Todolist](https://github.com/Nishitsuthar/ToDoLis/blob/mymain/demo1.png)
+![Image of Todolist](https://github.com/Nishitsuthar/ToDoList/blob/mymain/demo1.png)
 
 if you want to add anything just add & press the plus button
 
-![Image of Todolist](https://github.com/Nishitsuthar/ToDoLis/blob/mymain/demo2.png)
+![Image of Todolist](https://github.com/Nishitsuthar/ToDoList/blob/mymain/demo2.png)
 
 after adding the item you can delete it simply pressing the mini cross icons below
 
-![Image of Todolist](https://github.com/Nishitsuthar/ToDoLis/blob/mymain/demo3.png)
+![Image of Todolist](https://github.com/Nishitsuthar/ToDoList/blob/mymain/demo3.png)
 
 
