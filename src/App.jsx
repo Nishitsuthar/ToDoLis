@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ToDoList from "./ToDoList";
 
 const App = () => {
   const [list, setList] = useState("");
@@ -11,6 +12,7 @@ const App = () => {
     setArr((oldVal) => {
       return [...oldVal, list];
     });
+    setList("");
   };
   return (
     <>
@@ -29,7 +31,7 @@ const App = () => {
 
           <ol>
             {arr.map((itemList) => {
-              return <li>{itemList}</li>;
+              return <ToDoList text={itemList} />;
             })}
           </ol>
         </div>
